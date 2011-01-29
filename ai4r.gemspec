@@ -13,9 +13,9 @@ SPEC = Gem::Specification.new do |s|
     Artificial intelligence fields, including Genetic
     algorithms, Neural Networks, machine learning, and clustering.
   DESC
-  s.files = FileList["{examples,lib}/**/*"].to_a
+  s.files = Dir.glob("{examples,lib}/**/*")
   s.require_path = "lib"
-  s.test_files = FileList["{test}/**/*test.rb"].to_a
+  s.test_files = Dir.glob("{test}/**/*test.rb")
   s.has_rdoc = true
   s.extra_rdoc_files = ["README.rdoc"]
   #s.add_dependency("dependency", ">= 0.x.x")
