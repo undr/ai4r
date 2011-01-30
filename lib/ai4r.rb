@@ -27,6 +27,7 @@ require File.dirname(__FILE__) +  "/ai4r/classifiers/ib1"
 # Neural networks
 require File.dirname(__FILE__) +  "/ai4r/neural_network/backpropagation"
 require File.dirname(__FILE__) +  "/ai4r/neural_network/hopfield"
+require File.dirname(__FILE__) +  "/ai4r/neural_network/perceptron"
 # Genetic Algorithms
 require File.dirname(__FILE__) +  "/ai4r/genetic_algorithm/genetic_algorithm"
 # SOM
